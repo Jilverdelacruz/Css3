@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img{
+    display: block;
+    color: gray;
+    width: 700px;
+    margin: 10px auto;
+    box-shadow: 0px 500px 80px -50px #BC0203,
+                3px 3px 12px currentColor,
+                4px 4px 13px red,
+                6px 6px 15px black
+}

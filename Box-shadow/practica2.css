@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    margin:20px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 11px 0px rgba(20,18,20,0.75);
+
+}
+.img{
+    display: block; /*si no le quitas el bloque*/
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    object-fit: cover;
+
+}
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.title{
+    color:#A60909;
+}
+.copy{
+    color: #221F2F;
+}
+.cta{
+    display: block;
+    width: 120px;
+    background-color: #A60909;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+.goku{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    filter:drop-shadow(10px 10px 20px gold)
+}
+.spiderman{
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+    filter:drop-shadow(5px 5px 20px #A60909)
+}
