@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+}
+body{
+    height: 1500px;
+}
+.header{
+    padding-top: 210px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#a8c0ee5d, #f9c3ec7e),
+    url(./img/hero.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    
+    
+    
+}
+h1{
+    
+    font-size: 100px;
+    
+}
