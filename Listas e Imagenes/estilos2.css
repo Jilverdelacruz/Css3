@@ -1,0 +1,7 @@
+li{
+    background-color: rosybrown;
+    list-style-type: georgian;
+    list-style-image: url(./img/icono.png);
+    list-style-position: inside;
+    
+}
