@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.event{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: salmon;
+    color: white;
+    text-decoration: none;
+}
+
+.event:active{
+    padding: 30px;
+}
+
+#objetivo{
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+    transition: 3s;
+}
+
+#objetivo:target{ /*Indica que hay un elemento que está buscando ese bloque con id objetivo y si  le hace click inmediatamente se activa*/
+    margin-left: 80px;
+    
+}
