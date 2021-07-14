@@ -35,9 +35,6 @@ ul{
 li{
     list-style: none;
 }
-li{
-    
-}
 li::before{
     content: counter(contador);
     counter-increment: contador;
@@ -51,6 +48,4 @@ li::before{
     border-radius: 50%;
     margin-top: 10px;
     margin-right: 10px;
-
-
 }

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+   box-sizing: border-box;
+
+}
+
+.container{
+    width: 30%;
+    margin: 20px auto;
+    border: 1px solid slateblue;
+    padding: 40px;
+    position: relative;
+}
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(13, 141, 245);
+    z-index: -1;
+} 
+.static{
+    background-color: red;
+    
+}
+ .relative{   
+    position: relative;
+    right:20px;
+    top: 10px;
+}
