@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary:linear-gradient(to right, rgba(104, 84, 218, 0.582) 0%, rgba(167, 81, 167, 0.555) 100%);
+    --radius:5px
+}
+body{
+    min-height: 100vh;
+    background-image: var(--color-primary), url(./img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    width: 25%;
+    margin:5em auto;
+    background-color: white;
+    padding: 1em;
+    border-radius: var(--radius);
+    text-align: center;
+    overflow: hidden; /*porque cuando se usa el texarea no saldra el formulario*/
+}
+
+input, .form__message{
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1em;
+    height: 3em;
+    border:2px solid rgb(201, 194, 194);
+    padding-left: 1em;
+}
+.form__message{
+    height: 5em;
+    max-width: 100%; /*PARA QUE NO PUEDA CRECER MAS DEL PADRE*/
+    min-width: 100%;
+    min-height: 3em;;
+}
+.form__submit{
+    border: none;
+    background-image: var(--color-primary);
+    border-radius: var(--radius);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{  /*para que todos los elementos la usen*/
+    --color-primario: gray;
+    --colorPredeterminado: red
+}
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+.card, .card2{
+    margin: 5em auto;
+    width: 20%;
+    height: 20em;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 6px 6px 10px  rgba(0, 0, 0, 0.555);
+}
+.card__title, .card2__title{
+ color: #000177;
+}
+.card__copy{
+ margin: 1em 0;
+ color: var(--color-primario);
+}
+.card2__copy{
+    margin: 1em 0;
+    color: var(--color-primario00, var(--colorPredeterminado));
+   }
+.card__cta{
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    color: #000177;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+}
