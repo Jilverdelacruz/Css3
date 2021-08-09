@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --height-hijo:200px;
+    --width-hijo:200px
+}
+.container{
+    width: 90%;
+    height: 600px;
+    outline:2px solid black;    
+    margin:30px auto;
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+}
+
+.item{
+    height: var(--height-hijo);
+    width: var(--width-hijo);
+    background-color: brown;
+    color: white;
+    line-height: var(--height-hijo);
+    text-align: center;
+
+}
+.item2{
+    background-color: yellow;
+    color: black;
+}
+.item3{
+    background-color: blueviolet;
+
+}
+.item4{
+    background-color: cadetblue;
+}
